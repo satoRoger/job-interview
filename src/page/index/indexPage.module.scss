@@ -1,4 +1,26 @@
-.button {
-  color: aqua;
-  background-color: blue;
+.logo {
+	position: absolute;
+	left: 80px;
+	top: 14px;
+}
+
+.buttonGroup {
+	position: absolute;
+	width: 130px;
+	height: 40px;
+	left: 1328px;
+	top: 10px;
+}
+
+.linkList {
+	position: absolute;
+	left: 273px;
+	top: 21px;
+}
+
+.linkText {
+	margin-right: 20px;
+	&:last-child {
+		margin-right: 0;
+	}
 }
