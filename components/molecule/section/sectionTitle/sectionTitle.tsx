@@ -1,4 +1,4 @@
-import Children from '../../util/propsType/children';
+import Children from '../../../util/propsType/children';
 
 type Props = Children;
 
