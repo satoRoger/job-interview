@@ -1,3 +1,7 @@
+.container {
+	position: fixed;
+}
+
 .logo {
 	position: absolute;
 	left: 80px;
@@ -6,10 +10,15 @@
 
 .buttonGroup {
 	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 1328px;
+	right: 222px;
 	top: 10px;
+}
+
+.button {
+	margin-right: 12px;
+	&:last-child {
+		margin-right: 0px;
+	}
 }
 
 .linkList {
